@@ -1,0 +1,26 @@
+# ambiente
+.venv/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ipynb_checkpoints/
+
+# sistema
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# editores
+.vscode/
+.idea/
+
+# dados sensíveis e volumosos
+dados/tratados/*.csv
+dados/tratados/*.xlsx
+banco/dumps/*.sql
+*.bak
+
+# nunca versionar
+*.env
+credenciais*
